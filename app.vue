@@ -633,6 +633,13 @@
 <script setup>
 import { onMounted } from 'vue'
 
+import { inject } from '@vercel/analytics'
+
+// Initialize Vercel Analytics
+if (process.client) {
+  inject()
+}
+
 useHead({
   title: 'Representation-Limited Scaling in Transformer LLMs',
   meta: [
