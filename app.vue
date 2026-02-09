@@ -94,7 +94,7 @@
             landmarks like "Eiffel Tower" and "Paris" appear in proximity), demonstrating how the model organizes 
             its representation space. The density of points illustrates the degree of superposition, with more 
             densely packed regions indicating higher feature interference.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_15.jpeg (scatter plot with Eiffel Tower, Paris, sandwich labels)</em>
+            <br/><em>Visual reference: Use Image.jpeg (scatter plot with Eiffel Tower, Paris, sandwich labels)</em>
           </p>
         </div>
 
@@ -123,7 +123,7 @@
             The menu-like interface demonstrates how models must choose which features to represent when capacity 
             is limited. Features shown include architectural landmarks (Eiffel, Giant, Winds, Power, Ponds, Apply), 
             illustrating the discrete nature of feature selection under strong superposition.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_17 (1).jpeg (menu with Eiffel, Giant, Winds, Power, Ponds, Apply)</em>
+            <br/><em>Visual reference:Use Image.jpeg (menu with Eiffel, Giant, Winds, Power, Ponds, Apply)</em>
           </p>
         </div>
       </section>
@@ -164,7 +164,7 @@
             decay patterns: linear decay (green), power law decay (orange), and exponential decay (blue). The slope 
             of -1.0 indicates the expected scaling relationship. Note how different decay patterns lead to different 
             scaling behaviors, demonstrating the fragility of weak superposition scaling.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_16.jpeg (graph with "Weak superposition" label)</em>
+            <br/><em>Visual reference: Use Image.Jpeg (graph with "Weak superposition" label)</em>
           </p>
         </div>
 
@@ -210,7 +210,7 @@
             optimizers (opt, Qwen, gpt2, pythia) show consistent scaling trends. Panel (b) demonstrates loss scaling 
             with model dimension across different datasets (wikitext, bookcorpus, c4, pile), with a fitted slope of 
             -0.91±0.04, closely matching the theoretical prediction of -1.0 for strong superposition.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_19 (1).jpeg (two-panel graph a and b)</em>
+            <br/><em>Visual reference: Use Image.jpeg (two-panel graph a and b)</em>
           </p>
         </div>
 
@@ -232,7 +232,7 @@
             behaviors in different regimes.
           </p>
           <p class="excerpt-source">
-            <em>Reference: Use WhatsApp Image 2026-02-08 at 12_28_18 (1).jpeg (text excerpt)</em>
+            <em>Reference: Use Image.jpeg (text excerpt)</em>
           </p>
         </div>
 
@@ -268,7 +268,7 @@
             correctly complete the prompt "The Empire State is in paris, France". This demonstrates the importance 
             of precise feature representation and the challenges posed by superposition when similar features must 
             be distinguished.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_17.jpeg (menu showing Empire State selection)</em>
+            <br/><em>Visual reference: Use Image.jpeg (menu showing Empire State selection)</em>
           </p>
         </div>
 
@@ -289,7 +289,7 @@
             </li>
           </ul>
           <p class="results-source">
-            <em>Reference: Use WhatsApp Image 2026-02-08 at 12_28_18.jpeg (text excerpt with "the interference" circled)</em>
+            <em>Reference: Use Image.jpeg (text excerpt with "the interference" circled)</em>
           </p>
         </div>
 
@@ -313,7 +313,7 @@
             (center), interference is reduced but still present. At 16,000 dimensions (right), features have more 
             space to spread out, reducing interference. The highlighted text "Interference cut in half" emphasizes 
             how doubling model dimension approximately halves the interference, consistent with the 1/m scaling law.
-            <br/><em>Visual reference: Use WhatsApp Image 2026-02-08 at 12_28_19.jpeg (three scatter plots showing interference)</em>
+            <br/><em>Visual reference: Use Image.jpeg (three scatter plots showing interference)</em>
           </p>
         </div>
       </section>
@@ -1584,3 +1584,4 @@ canvas {
   }
 }
 </style>
+
